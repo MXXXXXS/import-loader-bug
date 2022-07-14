@@ -7,6 +7,8 @@ module.exports = {
     app: join(workspace, "src/app.js"),
   },
   target: "node",
+  devtool: "source-map",
+  mode: "development",
   resolve: {
     extensions: [".js"],
   },
